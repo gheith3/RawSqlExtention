@@ -16,14 +16,14 @@ after install plugin ..
         }
 ```
 
-- send sql to database
+-  select data from databse table
 
 ```sh
     var sql = "SELECT ID, LastName, FirstMidName, EnrollmentDate FROM Student";
     List<Student> students = await _context.ExecuteRawQueryAsync<Student>(sql);
 ```
 
-- it can send parameters with query
+- send parameters with query
 
 ```sh
     var sql = "SELECT ID, LastName, FirstMidName, EnrollmentDate FROM Student WHERE Id = @StudentID";

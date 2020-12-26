@@ -5,17 +5,26 @@
     <PackageId>Ghak.RawSqlExtention</PackageId>
     <Authors>Gheith Alrawahi</Authors>
     <Company>GHAK</Company>
-    <Description>includes data extensions for Entity Framework Core, add ability to send raw sql to database then send list of T object bacak, its work well to call stored database view or procedure</Description>
+    <Description>eextention for .net core to work directly with database using database context, its allow to send sql for create/update/delete and select, also its work well with stored views and procedures</Description>
     <Version>1.0.1</Version>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageProjectUrl>https://github.com/gheith3/RawSqlExtention</PackageProjectUrl>
     <Copyright />
+    <PackageIcon>pkcon.png</PackageIcon>
+    <RepositoryUrl>https://github.com/gheith3/RawSqlExtention</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.3" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="3.1.3" />
     <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="C:\Users\ghak9\Pictures\pkcon.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>

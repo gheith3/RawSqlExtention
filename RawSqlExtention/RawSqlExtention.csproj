@@ -8,6 +8,8 @@
     <Description>includes data extensions for Entity Framework Core, add ability to send raw sql to database then send list of T object bacak, its work well to call stored database view or procedure</Description>
     <Version>1.0.1</Version>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageProjectUrl>https://github.com/gheith3/RawSqlExtention</PackageProjectUrl>
+    <Copyright />
   </PropertyGroup>
 
   <ItemGroup>
